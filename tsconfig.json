@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "lib": ["es7", "es2017", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "src/*": [ "./src/*" ],
+      "components/*": [ "./src/components/*" ],
+      "logic/*": [ "./src/common/logic/*" ],
+      "quasar": ["quasar-framework/dist/quasar.mat.esm.js"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
