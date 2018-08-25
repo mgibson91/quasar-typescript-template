@@ -11,8 +11,7 @@
     "paths": {
       "src/*": [ "./src/*" ],
       "components/*": [ "./src/components/*" ],
-      "logic/*": [ "./src/common/logic/*" ],
-      "quasar": ["quasar-framework/dist/quasar.mat.esm.js"]
+      "logic/*": [ "./src/common/logic/*" ]
     }
   },
   "exclude": [

@@ -28,13 +28,6 @@ module.exports = function (ctx) {
       // extractCSS: false,
       extendWebpack (cfg) {
         cfg.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules|quasar)/
-        })
-
-        cfg.module.rules.push({
           test: /\.ts$/,
           loader: "ts-loader",
           options: {

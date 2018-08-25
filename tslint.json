@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint-eslint-rules",
+    "tslint-config-standard"
+  ],
+  "rules": {
+    "no-constant-condition": true,
+    "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
+    "space-before-function-paren": false,
+    "semicolon": [true, "always"],
+    "quotes": [2, "single", { "allowTemplateLiterals": true }],
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+    "one-line": false
+  }
+}
