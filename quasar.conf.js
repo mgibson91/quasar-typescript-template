@@ -33,13 +33,14 @@ module.exports = function (ctx) {
           options: {
             appendTsSuffixTo: [/\.vue$/]
           },
-        })
+        });
 
         cfg.resolve.extensions = ['.ts', '.js', '.json', '.vue'];
 
         cfg.resolve.alias = {
           ...cfg.resolve.alias,
           logic: path.resolve(__dirname, './src/common/logic'),
+          ['core-streamline']: path.resolve(__dirname, './core-streamline/src'),
         };
       },
     },

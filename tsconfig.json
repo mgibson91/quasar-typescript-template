@@ -11,9 +11,14 @@
     "paths": {
       "src/*": [ "./src/*" ],
       "components/*": [ "./src/components/*" ],
-      "logic/*": [ "./src/common/logic/*" ]
+      "logic/*": [ "./src/common/logic/*" ],
+      "core-streamline/*": ["./core-streamline/src/*"]
     }
   },
+  "include": [
+    "src",
+    "core-streamline"
+  ],
   "exclude": [
     "node_modules"
   ]

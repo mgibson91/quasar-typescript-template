@@ -1,16 +1,16 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import example from './module-example';
+import general from './general';
 
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
-    stringFromStore: 'string from store',
+
   },
   modules: {
-    example,
+    general,
   },
 });
 
